@@ -30,7 +30,7 @@ namespace GrpcClient
             Console.WriteLine();
             Console.WriteLine("New Customer List");
             Console.WriteLine();
-
+            Console.WriteLine("grpc Test");
 
             using (var call = customerClient.GetNewCustomers(new NewCustomerRequest()))
             {
